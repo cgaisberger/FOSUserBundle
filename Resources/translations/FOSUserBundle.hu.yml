@@ -44,19 +44,20 @@ registration:
     flash:
         user_created: A felhasználó sikeresen létrehozva
     email:
-        subject: Üdvözöljük %username%!
+        subject: Rauch - Üdvözöljük %username%!
         message: |
             Hello %username%!
 
             A fiókja visszaigazolásához kérjük látogasson el a következő linkre: %confirmationUrl%
 
             Üdvözlettel,
-            the Team.
+            Rauch Team.
 
 # Password resetting
 resetting:
     password_already_requested: Az elmúlt 24 órában ehhez a felhasználóhoz már kértek új jelszót.
-    check_email: Egy e-mail lett küldve a(z) %email% címre. Egy linket tartalmaz, amire rá kell kattintani a jeszó lecseréléséhez.
+    check_email: A megadott e-mail címre küldtünk egy levelet (%email%). A levélben található linkre kattintva tudod a régi jelszavadat lecserélni.
+    #check_email: Egy e-mail lett küldve a(z) %email% címre. Egy linket tartalmaz, amire rá kell kattintani a jeszó lecseréléséhez.
     request:
         invalid_username: A(z) %username% felhasználónév vagy e-mail cím nem létezik.
         username: "Felhasználónév vagy e-mail cím:"
@@ -66,14 +67,14 @@ resetting:
     flash:
         success: A jelszó sikeresen lecserélve
     email:
-        subject: Jelszó lecserélése
+        subject: Rauch - Jelszó lecserélése
         message: |
             Hello %username%!
 
             A jelszó lecseréléséhez kérjük látogasson el a következő linkre: %confirmationUrl%
 
             Üdvözlettel,
-            the Team.
+            Rauch Team.
 
 # Global strings
 layout:

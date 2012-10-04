@@ -44,14 +44,14 @@ registration:
     flash:
         user_created: Utilizatorul a fost creat cu succes
     email:
-        subject: Bine ai venit %username%!
+        subject: Rauch - Bine ai venit %username%!
         message: |
             Salut %username%!
 
             Pentru a-ti valida contul - acceseaza %confirmationUrl%
 
             Toate cele bune,
-            Echipa
+            Rauch Echipa
 
 # Password resetting
 resetting:
@@ -66,19 +66,19 @@ resetting:
     flash:
         success: Parola a fost resetata cu succes
     email:
-        subject: Resetare parola
+        subject: Rauch - Resetare parola
         message: |
             Salut %username%!
 
             Pentru a-ti reseta parola - acceseaza %confirmationUrl%
 
             Toate cele bune,
-            Echipa
+            Rauch Echipa
 
 # Global strings
 layout:
-    logout: Logout
-    login: Login
+    logout: Deconectare
+    login: Logare
     register: Inregistrare
     logged_in_as: Logat ca %username%
 

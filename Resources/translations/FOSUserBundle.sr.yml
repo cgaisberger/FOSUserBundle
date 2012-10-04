@@ -1,0 +1,105 @@
+# Group
+group:
+    edit:
+        submit: Ažuriraj grupu
+    show:
+        name: Naziv grupe
+    new:
+        submit: Kreiraj grupu
+    flash:
+        updated: Grupa je ažurirana
+        created: Grupa je kreirana
+        deleted: Grupa je obrisana
+
+# Security
+"Bad credentials": Molim Vas unesite ispravan username i lozinku
+
+security:
+    login:
+        username: "Korisničko ime:"
+        password: "Lozinka:"
+        remember_me: Zapamti me
+        submit: PRIJAVA
+
+# Profile
+profile:
+    show:
+        username: Korisničko ime
+        email: E-mail adresa
+    edit:
+        submit: Ažuriraj
+    flash:
+        updated: Profil je ažuriran
+
+# Password change
+change_password:
+    submit: Izmeni lozinku
+    flash:
+        success: Lozinka je izmenjena
+
+# Registration
+# Registration
+registration:
+    check_email: Poruka je poslata na adresu %email%. Ona sadrži aktivacioni link koji morate kliknuti da bi aktivirali Vaš nalog.
+    confirmed: Čestitamo %username%, Vaš nalog je sada aktivan.
+    back: Nazad na prethodnu stranu.
+    submit: Registruj se
+    flash:
+        user_created: Korisnički nalog je uspešno kreiran
+    email:
+        subject: Rauch - Dobrodošli %username%!
+        message: |
+            Zdravo %username%!
+
+            Da bi aktivirali Vaš nalog posetite %confirmationUrl%
+
+            S poštovanjem,
+            vaš Rauch tim.
+
+# Password resetting
+resetting:
+    password_already_requested: Lozinka za ovog korisnika je već zahtevana u poslednjih 24 sata.
+    check_email: Poruka je poslata na adresu %email%. Ona sadrži link koji morate kliknuti da bi resetovali Vašu lozinku.
+    request:
+        invalid_username: Korisničko ime ili adresa e-pošte "%username%" ne postoji.
+        username: "Korisničko ime ili email adresa:"
+        submit: Tražite novu lozinku
+    reset:
+        submit: Promeni lozinku
+    flash:
+        success: Lozinka je uspešno resetovana
+    email:
+        subject: Rauch - Resetovanje lozinke
+        message: |
+            Zdravo %username%!
+
+            Da bi resetovali Vašu lozinku posetite %confirmationUrl%
+
+            S poštovanjem,
+            vaš Rauch tim.
+
+# Global strings
+layout:
+    logout: ODJAVA
+    login: PRIJAVA
+    register: Registar
+    logged_in_as: Prijavljen kao %username%
+
+# Form field labels
+fos_user_group_form_name: "Naziv grupe:"
+
+fos_user_profile_form_user_username: "Korisničko ime:"
+fos_user_profile_form_user_email: "E-mail adresa:"
+fos_user_profile_form_current: "Stara lozinka:"
+
+fos_user_registration_form_username: "Korisničko ime:"
+fos_user_registration_form_email: "E-mail adresa:"
+fos_user_registration_form_plainPassword_first: "Lozinka:"
+fos_user_registration_form_plainPassword_second: "Ponovite lozinku:"
+
+fos_user_resetting_form_new_first: "Nova lozinka:"
+fos_user_resetting_form_new_second: "Ponovite lozinku:"
+
+fos_user_change_password_form_new_first: "Nova lozinka:"
+fos_user_change_password_form_new_second: "Ponovite lozinku:"
+fos_user_change_password_form_current: "Stara lozinka:"

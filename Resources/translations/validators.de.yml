@@ -9,7 +9,7 @@ fos_user:
         blank: Bitte geben Sie eine E-Mail-Adresse an
         short: Diese E-Mail-Adresse ist zu kurz
         long: Diese E-Mail-Adresse ist zu lang
-        invalid: Diese E-Mail-Adresse ist ungültig
+        invalid: Bitte geben Sie eine gültige E-Mail Adresse ein
     password:
         blank: Bitte geben Sie ein Passwort an
         short: Das Passwort ist zu kurz
@@ -22,3 +22,22 @@ fos_user:
         blank: Bitte geben Sie einen Namen an
         short: Dieser Name ist zu kurz
         long: Dieser Name ist zu lang
+    salutation:
+        blank: Bitte wählen Sie Ihre Anrede aus
+    firstname:
+        blank: Bitte geben Sie Ihren Vornamen ein
+    lastname:
+        blank: Bitte geben Sie Ihren Nachnamen ein
+    company:
+        blank: Bitte geben Sie Ihren Firmennamen ein
+    street:
+        blank: Bitte geben Sie Ihre Adresse ein
+    zip:
+        blank: Bitte geben Sie Ihre Postleitzahl ein
+    city:
+        blank: Bitte geben Sie Ihren Ort ein
+    country:
+        blank: Bitte wählen Sie Ihr Land aus
+    answer:
+        blank: Bitte wählen Sie eine Antwort
+        

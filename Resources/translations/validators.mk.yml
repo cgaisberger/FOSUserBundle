@@ -1,0 +1,42 @@
+fos_user:
+    username:
+        already_used: Ова корисничко име е веќе во употреба.Молиме одберете друго.
+        blank: Ова поле е барано.
+        short: The username is too short
+        long: The username is too long
+    email:
+        already_used: Оваа и-мејл адреса е веќе во употреба од друг корисник.
+        blank: Ова поле е барано.
+        short: The email is too short
+        long: The email is too long
+        invalid: The email is not valid
+    password:
+        blank: Молиме внесете лозинка.
+        short: Молиме внесете барем 8 знака.
+    new_password:
+        blank: Молиме внесете лозинка.
+        short: Молиме внесете барем 8 знака.
+    current_password:
+        invalid: Ве молиме внесете ја вашата сегашна лозинка за да ги потврдите промените.
+    group:
+        blank: Please enter a name
+        short: The name is too short
+        long: The name is too long
+    salutation:
+        blank: Ова поле е барано.
+    firstname:
+        blank: Ова поле е барано.
+    lastname:
+        blank: Ова поле е барано.
+    company:
+        blank: Ова поле е барано.
+    street:
+        blank: Ова поле е барано.
+    zip:
+        blank: Ова поле е барано.
+    city:
+        blank: Ова поле е барано.
+    country:
+        blank: Ова поле е барано.
+    answer:
+        blank: Ова поле е барано.

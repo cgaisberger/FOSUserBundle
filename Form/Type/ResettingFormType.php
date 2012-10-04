@@ -19,6 +19,9 @@ class ResettingFormType extends AbstractType
     public function buildForm(FormBuilder $builder, array $options)
     {
         $builder->add('new', 'repeated', array('type' => 'password'));
+
+        $builder->get('new')->get('first')->setAttribute('label', 'form.passwordfirst');
+        $builder->get('new')->get('second')->setAttribute('label', 'form.passwordrepeat');
     }
 
     public function getDefaultOptions(array $options)

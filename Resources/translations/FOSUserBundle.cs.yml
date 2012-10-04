@@ -12,6 +12,8 @@ group:
         deleted: Skupina byla úspěšně vymazána
 
 # Security
+"Bad credentials": Molim Vas unesite ispravan username i lozinku
+
 security:
     login:
         username: "Uživatelské jméno:"
@@ -44,14 +46,14 @@ registration:
     flash:
         user_created: Váš účet byl úspěšně vytvořen
     email:
-        subject: Vítejte, %username%!
+        subject: Rauch - Vítejte, %username%!
         message: |
             Dobrý den, %username%!
 
             Pro dokončení Vaší registrace klikněte na tento odkaz: %confirmationUrl%
 
             S pozdravem,
-            realizační tým.
+            realizační Rauch tým.
 
 # Password resetting
 resetting:
@@ -66,14 +68,14 @@ resetting:
     flash:
         success: Heslo bylo úspěšně změněné
     email:
-        subject: Zaslání zapomenutého hesla
+        subject: Rauch - Zaslání zapomenutého hesla
         message: |
             Dobrý den, %username%!
 
             Pro nastavení nového hesla klikněte na tento odkaz: %confirmationUrl%
 
             S pozdravem,
-            realizační tým.
+            realizační Rauch tým.
 
 # Global strings
 layout:

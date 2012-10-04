@@ -1,0 +1,42 @@
+fos_user:
+    username:
+        already_used: Ez a felhasználónév már foglalt. Kérlek válasz egy másik felhasználónevet!
+        blank: Ezt a mezőt ki kell tölteni.
+        short: A felhasználónév túl rövid.
+        long: A felhasználónév túl hosszú.
+    email:
+        already_used: Ezt az e-mail címet egy másik játékos már használja.
+        blank: Ezt a mezőt ki kell tölteni.
+        short: Az e-mail túl rövid.
+        long: Az e-mail túl hosszú.
+        invalid: Az e-mail nem érvényes.
+    password:
+        blank: Kérlek, add meg jelszavadat!
+        short: A jelszó túl rövid.
+    new_password:
+        blank: Kérlek, add meg jelszavadat!
+        short: Az új jelszó túl rövid.
+    current_password:
+        invalid: Kérlek, add meg jelszavadat!
+    group:
+        blank: Please enter a name
+        short: The name is too short
+        long: The name is too long
+    salutation:
+        blank: Ezt a mezőt ki kell tölteni.
+    firstname:
+        blank: Ezt a mezőt ki kell tölteni.
+    lastname:
+        blank: Ezt a mezőt ki kell tölteni.
+    company:
+        blank: Ezt a mezőt ki kell tölteni.
+    street:
+        blank: Ezt a mezőt ki kell tölteni.
+    zip:
+        blank: Ezt a mezőt ki kell tölteni.
+    city:
+        blank: Ezt a mezőt ki kell tölteni.
+    country:
+        blank: Ezt a mezőt ki kell tölteni.
+    answer:
+        blank: Ezt a mezőt ki kell tölteni.

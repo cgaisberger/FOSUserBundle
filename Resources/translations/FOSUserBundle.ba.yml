@@ -16,16 +16,16 @@ group:
 
 security:
     login:
-        username: "Username:"
-        password: "Password:"
+        username: "Korisničko ime:"
+        password: "Šifra:"
         remember_me: Remember me
-        submit: Login
+        submit: Logirajte se
 
 # Profile
 profile:
     show:
-        username: Username
-        email: Email
+        username: Korisničko ime
+        email: E-mail adresa
     edit:
         submit: Update
     flash:
@@ -33,7 +33,7 @@ profile:
 
 # Password change
 change_password:
-    submit: Change password
+    submit: Promjeni lozinku
     flash:
         success: The password has been changed
 
@@ -46,14 +46,14 @@ registration:
     flash:
         user_created: The user has been created successfully
     email:
-        subject: Rauch - welcome %username%!
+        subject: Welcome %username%!
         message: |
             Hello %username%!
 
             To finish activating your account - please visit %confirmationUrl%
 
             Regards,
-            your Rauch Team.
+            Vaš RAUCH tim
 
 # Password resetting
 resetting:
@@ -68,37 +68,37 @@ resetting:
     flash:
         success: The password has been reset successfully
     email:
-        subject: Rauch - Reset Password
+        subject: Reset Password
         message: |
             Hello %username%!
 
             To reset your password - please visit %confirmationUrl%
 
             Regards,
-            your Rauch Team.
+            Vaš RAUCH tim
 
 # Global strings
 layout:
     logout: Logout
-    login: Login
-    register: Register
+    login: Logirajte se
+    register: Registar
     logged_in_as: Logged in as %username%
 
 # Form field labels
 fos_user_group_form_name: "Group name:"
 
-fos_user_profile_form_user_username: "Username:"
+fos_user_profile_form_user_username: "Korisničko ime:"
 fos_user_profile_form_user_email: "Email:"
 fos_user_profile_form_current: "Current Password:"
 
-fos_user_registration_form_username: "Username:"
+fos_user_registration_form_username: "Korisničko ime:"
 fos_user_registration_form_email: "Email:"
-fos_user_registration_form_plainPassword_first: "Password:"
-fos_user_registration_form_plainPassword_second: "Verification:"
+fos_user_registration_form_plainPassword_first: "Šifra:"
+fos_user_registration_form_plainPassword_second: "Ponoviti šifru:"
 
-fos_user_resetting_form_new_first: "New password:"
-fos_user_resetting_form_new_second: "Verification:"
+fos_user_resetting_form_new_first: "Nova lozinka:"
+fos_user_resetting_form_new_second: "Ponoviti šifru:"
 
-fos_user_change_password_form_new_first: "New password:"
-fos_user_change_password_form_new_second: "Verification:"
-fos_user_change_password_form_current: "Current password:"
+fos_user_change_password_form_new_first: "Nova lozinka:"
+fos_user_change_password_form_new_second: "Ponoviti šifru:"
+fos_user_change_password_form_current: "Stara lozinka :"

@@ -1,20 +1,20 @@
 fos_user:
     username:
-        already_used: The username is already used
-        blank: Please enter a username
+        already_used: Ovo korisničko ime je već u uporabi. Molimo odaberite drugo.
+        blank: Ovo polje je obvezno
         short: The username is too short
         long: The username is too long
     email:
-        already_used: The email is already used
-        blank: Please enter an email
+        already_used: Ova e-mail adresa je već u uporabi pod drugim korisničkim imenom.
+        blank: Ovo polje je obvezno
         short: The email is too short
         long: The email is too long
         invalid: The email is not valid
     password:
-        blank: Please enter a password
+        blank: Molimo unesite šifru
         short: The password is too short
     new_password:
-        blank: Please enter a new password
+        blank: Ovo polje je obvezno
         short: The new password is too short
     current_password:
         invalid: The entered password is invalid
@@ -23,20 +23,20 @@ fos_user:
         short: The name is too short
         long: The name is too long
     salutation:
-        blank: Please choose a salutation
+        blank: Ovo polje je obvezno
     firstname:
-        blank: Please enter your first name
+        blank: Ovo polje je obvezno
     lastname:
-        blank: Please enter your last name
+        blank: Ovo polje je obvezno
     company:
-        blank: Please enter your company
+        blank: Ovo polje je obvezno
     street:
-        blank: Please enter your address
+        blank: Ovo polje je obvezno
     zip:
-        blank: Please enter your zip code
+        blank: Ovo polje je obvezno
     city:
-        blank: Please enter your city
+        blank: Ovo polje je obvezno
     country:
-        blank: Please choose your country
+        blank: Ovo polje je obvezno
     answer:
-        blank: Please choose an answer
+        blank: Ovo polje je obvezno

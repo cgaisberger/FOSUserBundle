@@ -46,19 +46,19 @@ registration:
     flash:
         user_created: Korisnički račun je uspješno kreiran
     email:
-        subject: Aktivacija korisničkog računa
+        subject: Rauch - Aktivacija korisničkog računa
         message: |
             Pozdrav %username%!
 
             Za aktivaciju korisničkog računa molimo kliknite na %confirmationUrl%
 
             Pozdrav,
-            Autori stranice
+            Autori Rauch stranice
 
 # Password resetting
 resetting:
-    password_already_requested: U posljednja 24 sata ste već poslali zahtijev za resetiranjem lozinke.
-    check_email: Na %email%  smo vam poslali poruku s poveznicom za promjenu lozinke. Lozinku resetirajte klikom na tu poveznicu.
+    password_already_requested: U posljednja 24 sata ste već poslali zahtjev za resetiranjem lozinke.
+    check_email: Na %email% smo vam poslali poruku s poveznicom za promjenu lozinke. Lozinku resetirajte klikom na tu poveznicu.
     request:
         invalid_username: Korisničko ime "%username%" ne postoji.
         username: "Korisničko ime:"
@@ -68,14 +68,14 @@ resetting:
     flash:
         success: Lozinka je uspješno spremljena
     email:
-        subject: Promjena lozinke
+        subject: Rauch - Promjena lozinke
         message: |
             Pozdrav %username%!
 
             Za promjenu lozinke molimo kliknite na %confirmationUrl%
 
             Pozdrav,
-            Autori stranice
+            Autori Rauch stranice
 
 # Global strings
 layout:
@@ -93,7 +93,7 @@ fos_user_profile_form_current: "Trenutna lozinka:"
 
 fos_user_registration_form_username: "Korisničko ime:"
 fos_user_registration_form_email: "Email:"
-fos_user_registration_form_plainPassword_first:  "Lozinka"
+fos_user_registration_form_plainPassword_first: "Lozinka"
 fos_user_registration_form_plainPassword_second: "Potvrda lozinke:"
 
 fos_user_resetting_form_new_first: "Nova lozinka:"

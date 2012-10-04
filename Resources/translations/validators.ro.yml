@@ -1,0 +1,42 @@
+fos_user:
+    username:
+        already_used: Acest nume de utilizator este deja luat. Va rugam incercati altul.
+        blank: Acest camp trebuie completat.
+        short: Numele de utilizator este prea scurt
+        long: Numele de utilizator este prea lung
+    email:
+        already_used: Aceasta adresa de email a fost deja folosita pentru un alt cont.
+        blank: Acest camp trebuie completat.
+        short: E-mail este prea scurt
+        long: De e-mail este prea lung
+        invalid: E-mail nu este validă
+    password:
+        blank: Va rugam introduceti parola
+        short: Parola este prea scurta
+    new_password:
+        blank: Va rugam introduceti parola
+        short: Parolă nouă este prea scurt
+    current_password:
+        invalid: Parola introdusă este invalidă
+    group:
+        blank: Please enter a name
+        short: The name is too short
+        long: The name is too long
+    salutation:
+        blank: Acest camp trebuie completat.
+    firstname:
+        blank: Acest camp trebuie completat.
+    lastname:
+        blank: Acest camp trebuie completat.
+    company:
+        blank: Acest camp trebuie completat.
+    street:
+        blank: Acest camp trebuie completat.
+    zip:
+        blank: Acest camp trebuie completat.
+    city:
+        blank: Acest camp trebuie completat.
+    country:
+        blank: Acest camp trebuie completat.
+    answer:
+        blank: Acest camp trebuie completat.

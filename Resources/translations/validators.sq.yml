@@ -1,0 +1,42 @@
+fos_user:
+    username:
+        already_used: Fjala hyrëse përdoret aktualisht nga një përdorues tjetër.
+        blank: Kjo fushë kërkohet.
+        short: The username is too short
+        long: The username is too long
+    email:
+        already_used: Kjo adresë e-maili përdoret aktualisht nga një përdorues tjetër.
+        blank: Kjo fushë kërkohet.
+        short: The email is too short
+        long: The email is too long
+        invalid: The email is not valid
+    password:
+        blank: Ju lutem fut fjalëkalimin.
+        short: The password is too short
+    new_password:
+        blank: Ju lutem fut fjalëkalimin.
+        short: The new password is too short
+    current_password:
+        invalid: Ju lutem fut fjalëkalimin.
+    group:
+        blank: Please enter a name
+        short: The name is too short
+        long: The name is too long
+    salutation:
+        blank: Kjo fushë kërkohet.
+    firstname:
+        blank: Kjo fushë kërkohet.
+    lastname:
+        blank: Kjo fushë kërkohet.
+    company:
+        blank: Kjo fushë kërkohet.
+    street:
+        blank: Kjo fushë kërkohet.
+    zip:
+        blank: Kjo fushë kërkohet.
+    city:
+        blank: Kjo fushë kërkohet.
+    country:
+        blank: Kjo fushë kërkohet.
+    answer:
+        blank: Kjo fushë kërkohet.

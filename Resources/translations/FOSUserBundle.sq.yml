@@ -12,28 +12,28 @@ group:
         deleted: The group has been deleted
 
 # Security
-"Bad credentials": Invalid username or password
+"Bad credentials": Ju lutem futni nje fjalë hyrëse dhe një fjalëkalim të saktë.
 
 security:
     login:
-        username: "Username:"
-        password: "Password:"
+        username: "Fjala hyrëse:"
+        password: "Fjalëkalimi:"
         remember_me: Remember me
-        submit: Login
+        submit: Hyrje
 
 # Profile
 profile:
     show:
-        username: Username
+        username: Fjala hyrëse
         email: Email
     edit:
-        submit: Update
+        submit: Regjistrohu
     flash:
         updated: The profile has been updated
 
 # Password change
 change_password:
-    submit: Change password
+    submit: Ndrysho fjalëkalimin
     flash:
         success: The password has been changed
 
@@ -42,18 +42,18 @@ registration:
     check_email: An email has been sent to %email%. It contains an activation link you must click to activate your account.
     confirmed: Congrats %username%, your account is now activated.
     back: Back to the originating page.
-    submit: Register
+    submit: Regjistrohu
     flash:
         user_created: The user has been created successfully
     email:
-        subject: Rauch - welcome %username%!
+        subject: Rauch - Welcome %username%!
         message: |
             Hello %username%!
 
             To finish activating your account - please visit %confirmationUrl%
 
             Regards,
-            your Rauch Team.
+            the Team.
 
 # Password resetting
 resetting:
@@ -62,43 +62,43 @@ resetting:
     request:
         invalid_username: The username or email address "%username%" does not exist.
         username: "Username or email address:"
-        submit: Reset password
+        submit: Ndrysho fjalëkalimin
     reset:
-        submit: Change password
+        submit: Ndrysho fjalëkalimin
     flash:
         success: The password has been reset successfully
     email:
-        subject: Rauch - Reset Password
+        subject: Rauch - Kërkoni një fjalëkalim të ri
         message: |
             Hello %username%!
 
             To reset your password - please visit %confirmationUrl%
 
             Regards,
-            your Rauch Team.
+            the Team.
 
 # Global strings
 layout:
-    logout: Logout
-    login: Login
-    register: Register
+    logout: Dalje
+    login: Hyrje
+    register: Regjistrohu
     logged_in_as: Logged in as %username%
 
 # Form field labels
 fos_user_group_form_name: "Group name:"
 
-fos_user_profile_form_user_username: "Username:"
-fos_user_profile_form_user_email: "Email:"
-fos_user_profile_form_current: "Current Password:"
+fos_user_profile_form_user_username: "Fjala hyrëse:"
+fos_user_profile_form_user_email: "Adresa elektronike:"
+fos_user_profile_form_current: "Fjalëkalimi i vjetër:"
 
 fos_user_registration_form_username: "Username:"
 fos_user_registration_form_email: "Email:"
 fos_user_registration_form_plainPassword_first: "Password:"
-fos_user_registration_form_plainPassword_second: "Verification:"
+fos_user_registration_form_plainPassword_second: "Përsëritni fjalëkalimin:"
 
-fos_user_resetting_form_new_first: "New password:"
-fos_user_resetting_form_new_second: "Verification:"
+fos_user_resetting_form_new_first: "Fjalëkalimi i ri:"
+fos_user_resetting_form_new_second: "Përsëritni fjalëkalimin:"
 
-fos_user_change_password_form_new_first: "New password:"
-fos_user_change_password_form_new_second: "Verification:"
-fos_user_change_password_form_current: "Current password:"
+fos_user_change_password_form_new_first: "Fjalëkalimi i ri:"
+fos_user_change_password_form_new_second: "Përsëritni fjalëkalimin:"
+fos_user_change_password_form_current: "Fjalëkalimi i vjetër:"

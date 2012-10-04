@@ -44,14 +44,14 @@ registration:
     flash:
         user_created: Vaše konto bolo úspešne vytvorené.
     email:
-        subject: Vitaj %username%!
+        subject: Rauch - Vitaj %username%!
         message: |
             Ahoj %username%!
 
             Pre ukončenie registrácie, prosím klikni na nasledovnú linku: %confirmationUrl%
 
             S pozdravom,
-            Realizačný tím
+            Realizačný Rauch tím
 
 # Password resetting
 resetting:
@@ -65,14 +65,15 @@ resetting:
         submit: Zmeniť heslo
     flash:
         success: Heslo bolo úspešne zmenené.
-    email: |
-        Vynulovanie hesla
-        Ahoj %username%!
+    email:
+        subject: Rauch - Vynulovanie hesla
+        message: |
+            Ahoj %username%!
 
-        Pre zmenu hesla, klikni prosím na nasledovnú linku: %confirmationUrl%
+            Pre zmenu hesla, klikni prosím na nasledovnú linku: %confirmationUrl%
 
-        S pozdravom,
-        Realizačný tím
+            S pozdravom,
+            Realizačný Rauch tím
 
 # Global strings
 layout:

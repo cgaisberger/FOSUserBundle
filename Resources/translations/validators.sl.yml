@@ -22,3 +22,21 @@ fos_user:
         blank: Prosimo, vnesite ime
         short: Ime je prekratko
         long: Ime je predolgo
+    salutation:
+        blank: Obvezno polje.
+    firstname:
+        blank: Obvezno polje.
+    lastname:
+        blank: Obvezno polje.
+    company:
+        blank: Obvezno polje.
+    street:
+        blank: Obvezno polje.
+    zip:
+        blank: Obvezno polje.
+    city:
+        blank: Obvezno polje.
+    country:
+        blank: Obvezno polje.
+    answer:
+        blank: Obvezno polje.

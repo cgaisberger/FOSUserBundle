@@ -46,14 +46,14 @@ registration:
     flash:
         user_created: Uporabnik je bil uspešno ustvarjen
     email:
-        subject: Aktivacija računa
+        subject: Rauch - Aktivacija računa
         message: |
             Pozdravljeni %username%!
 
             Za aktivacijo računa prosimo, obiščite %confirmationUrl%
 
             lp,
-            ekipa.
+            Rauch ekipa.
 
 # Password resetting
 resetting:
@@ -68,14 +68,14 @@ resetting:
     flash:
         success: Geslo je bilo uspešno spremenjeno
     email:
-        subject: Sprememba gesla
+        subject: Rauch - Sprememba gesla
         message: |
             Pozdravljeni %username%!
 
             Za spremembo gesla prosimo, obiščite %confirmationUrl%
 
             Lep pozdrav,
-            ekipa.
+            Rauch ekipa.
 
 # Global strings
 layout:

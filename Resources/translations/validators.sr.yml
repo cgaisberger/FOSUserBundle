@@ -1,0 +1,43 @@
+fos_user:
+    username:
+        already_used: Username već postoji. Molim Vas izaberite drugi.
+        blank: Molimo, unesite korisničko ime
+        short: Korisničko ime je prekratko
+        long: Korisničko ime je predugo
+    email:
+        already_used: Ova e-mail adresa je već u upotrebi od drugog korisnika.
+        blank: Molimo, unesite adresu e-pošte
+        short: Adresa e-pošte je prekratka
+        long: Adresa e-pošte je preduga
+        invalid: Adresa e-pošte nije validna
+    password:
+        blank: Molim Vas unesite lozinku.
+        short: Lozinka je prekratka
+    new_password:
+        blank: Molim Vas unesite lozinku.
+        short: Nova lozinka je prekratka.
+    current_password:
+        invalid: Lozinka nije validna.
+    group:
+        blank: Molimo unesite naziv.
+        short: Naziv je prekratak
+        long: Naziv je predug
+    salutation:
+        blank: Ovo polje je obavezno.
+    firstname:
+        blank: Ovo polje je obavezno.
+    lastname:
+        blank: Ovo polje je obavezno.
+    company:
+        blank: Ovo polje je obavezno.
+    street:
+        blank: Ovo polje je obavezno.
+    zip:
+        blank: Ovo polje je obavezno.
+    city:
+        blank: Ovo polje je obavezno.
+    country:
+        blank: Ovo polje je obavezno.
+    answer:
+        blank: Ovo polje je obavezno.
+
